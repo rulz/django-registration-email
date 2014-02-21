@@ -1,3 +1,8 @@
+Origin
+=========
+
+https://github.com/bitmazk/django-registration-email
+
 django-registration-email
 ==========================
 
@@ -23,7 +28,7 @@ Usage
 
 Install this package::
 
-    pip install -e git://github.com/bitmazk/django-registration-email#egg=registration_email
+    pip install -e git://github.com/rulz/django-registration-email#egg=registration_email
 
 Add ``registration`` and ``registration_email`` to your ``INSTALLED_APPS``::
 
@@ -163,3 +168,9 @@ TODO
 =====
 
 * Password reset link points to original django template
+
+Translations
+=============
+* Spanish
+* Polish
+* Dutch
