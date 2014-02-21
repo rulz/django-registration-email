@@ -1,80 +1,80 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2013
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# MARCIN SPOCZYŃSKI <marcin@spoczynski.com>, 2013.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: 0.6\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-20 21:44-0300\n"
+"POT-Creation-Date: 2014-02-20 21:45-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Marcin Spoczynski <marcin@spoczynski.com>\n"
-"Language-Team: PL <marcin@spoczynski.com>\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: forms.py:59
 msgid "Remember me"
-msgstr ""
+msgstr "Recordarme"
 
 #: forms.py:65 forms.py:87 templates/registration/login.html:17
 msgid "Email"
-msgstr "Email"
+msgstr "Correo electrónico"
 
 #: forms.py:91
 msgid "Password"
-msgstr "Hasło"
+msgstr "Contraseña"
 
 #: forms.py:95
 msgid "Password (repeat)"
-msgstr "Hasło (powtórz)"
+msgstr "Contraseña (repetir)"
 
 #: forms.py:110
 msgid "A user with that email already exists."
-msgstr "Użytkownik o tym adresie email już istnieje."
+msgstr "Un usuario con ese correo electrónico ya existe."
 
 #: forms.py:123
 msgid "Please enter a valid name."
-msgstr "Proszę wprowadź poprawną nazwę"
+msgstr "Por favor ingrese un nombre válido."
 
 #: forms.py:130
 msgid "The two password fields didn't match."
-msgstr "Podane dwa hasła nie pasują do siebie."
+msgstr "Los dos campos de contraseña no coinciden."
 
 #: templates/registration/activate.html:5
 #: templates/registration/activate.html:8
 msgid "Activation failure"
-msgstr "Błąd aktywacji"
+msgstr "Fallo la activación"
 
 #: templates/registration/activate.html:12
 msgid "We are sorry but something went wrong!"
-msgstr "Przepraszamy, ale coś poszło nie tak !"
+msgstr "Lo sentimos, pero algo salió mal!"
 
 #: templates/registration/activate.html:13
 msgid "The activation link you provided is broken or was already used."
-msgstr "Link aktywacji który wprowadziłeś jest zepsuty lub był już użyty"
+msgstr "El enlace de activación que se ha enviado, esta roto o ya fue utilizada."
 
 #: templates/registration/activation_complete.html:5
 #: templates/registration/activation_complete.html:8
 msgid "Activation complete"
-msgstr "Aktywacja zakończona"
+msgstr "Activación completa"
 
 #: templates/registration/activation_complete.html:12
 msgid "You may now login with your username and password."
-msgstr "Teraz zaloguj się za pomocą swojej nazwy użytkownika i hasła"
+msgstr "Ahora puedes iniciar sesión con su nombre de usuario y contraseña."
 
 #: templates/registration/activation_complete.html:14
 msgid "Login now"
-msgstr "Zaloguj się"
+msgstr "Conéctate ahora"
 
 #: templates/registration/activation_complete.html:16
 msgid "Home"
-msgstr "Start"
+msgstr "Inicio"
 
 #: templates/registration/activation_email.txt:5
 #, python-format
@@ -87,186 +87,180 @@ msgid ""
 "%(expiration_days)s days:\n"
 msgstr ""
 "\n"
-"Poprosiłeś o rejestrację konta na stronie %(site_name)s.\n"
-"Jeśli to nie byłeś Ty, proszę zignoruj tą wiadomość.\n"
+"Ha solicitado a registrar una cuenta en %(site_name)s.\n"
+"Si no fue usted, por favor, ignora este correo electrónico"
 "\n"
-"Aby aktywować konto. proszę kliknij to łącze w ciągu\n"
-"%(expiration_days)s dni:\n"
+"Para activar esta cuenta, por favor haga clic en el siguiente enlace en el próximo\n"
+"%(expiration_days)s días:\n"
 
 #: templates/registration/activation_email.txt:15
 msgid "Sincerely,"
-msgstr "Drogi"
+msgstr "sinceramente,"
 
 #: templates/registration/activation_email_subject.txt:2
 msgid "Account Request"
-msgstr "Aktywacja konta"
+msgstr "Solicitar cuenta"
 
 #: templates/registration/login.html:5 templates/registration/login.html:8
 #: templates/registration/login.html:35
 #: templates/registration/password_reset_complete.html:13
 msgid "Login"
-msgstr "Login"
+msgstr "Iniciar sesión"
 
 #: templates/registration/login.html:31
 msgid "Forgot your password?"
-msgstr "Zapomniałeś swoje hasło"
+msgstr "¿Olvidaste tu contraseña?"
 
 #: templates/registration/login.html:32
 msgid "Register a new account"
-msgstr "Zarejestruj nowe konto"
+msgstr "Registrar una nueva cuenta"
 
 #: templates/registration/logout.html:5 templates/registration/logout.html:8
 msgid "Logout"
-msgstr "Wyloguj"
+msgstr "Salir"
 
 #: templates/registration/logout.html:12
 msgid "You have been logged out."
-msgstr "Zostałeś wylogowany"
+msgstr "Se le ha cerrado la sesión."
 
 #: templates/registration/password_change_done.html:5
 #: templates/registration/password_change_done.html:8
 msgid "Password change successful"
-msgstr "Hasło zostało pomyślnie zmienione"
+msgstr "Cambio de contraseña exitoso"
 
 #: templates/registration/password_change_done.html:12
 msgid "Your password has been changed."
-msgstr "Twoje hasło zostało zmienione."
+msgstr "Su contraseña ha sido cambiada."
 
 #: templates/registration/password_change_done.html:13
 msgid "Back to dashboard"
-msgstr "Powróć do panelu"
+msgstr "Volver al inicio"
 
 #: templates/registration/password_change_form.html:5
 #: templates/registration/password_change_form.html:8
 msgid "Password change"
-msgstr "Hasło zmienione"
+msgstr "cambio de contraseña"
 
 #: templates/registration/password_change_form.html:12
 msgid "Please enter your old password, then enter your new password twice."
-msgstr ""
-"Proszę wprowadź swoje stare hasło, a następnie powtórz dwa razy nowe hasło."
+msgstr "Introduzca su contraseña antigua y luego ingrese su nueva contraseña dos veces."
 
 #: templates/registration/password_change_form.html:23
 msgid "Save"
-msgstr "Zapisz"
+msgstr "Guardar"
 
 #: templates/registration/password_change_form.html:24
 #: templates/registration/password_reset_form.html:22
 msgid "Reset password"
-msgstr "Zresetuj hasło"
+msgstr "Restablecer contraseña"
 
 #: templates/registration/password_reset_complete.html:5
 #: templates/registration/password_reset_complete.html:8
 msgid "Password reset complete"
-msgstr "Resetowanie hasła zakończone"
+msgstr "Restablecimiento de contraseña completa"
 
 #: templates/registration/password_reset_complete.html:12
 msgid "Please login with your new password."
-msgstr "Proszę zaloguj się swoim nowym hasłem."
+msgstr "Inicia sesión con tu nueva contraseña."
 
 #: templates/registration/password_reset_confirm.html:6
 #: templates/registration/password_reset_confirm.html:11
 msgid "Enter new password"
-msgstr "Wprowadź nowe hasło"
+msgstr "Escriba la nueva contraseña"
 
 #: templates/registration/password_reset_confirm.html:6
 #: templates/registration/password_reset_confirm.html:13
 msgid "Error resetting password"
-msgstr "Błąd resetowania hasła"
+msgstr "Error de restablecer la contraseña"
 
 #: templates/registration/password_reset_confirm.html:19
 msgid "Please enter your new password twice."
-msgstr "Wprowadź swoje nowe hasło dwa razy."
+msgstr "Introduzca su nueva contraseña dos veces."
 
 #: templates/registration/password_reset_confirm.html:30
 msgid "Change my password"
-msgstr "Zmień moje hasło"
+msgstr "Cambiar mi contraseña"
 
 #: templates/registration/password_reset_confirm.html:33
 msgid ""
 "The password reset link was invalid, possibly because it has already been "
 "used. Please request a new password reset."
-msgstr ""
-"Link do zresetowania hasła jest błędny, prawdopodobnie już został "
-"wykorzystany. Proszę ponów procedurę resetu hasła"
+msgstr "El enlace para restablecer la contraseña no es válida, posiblemente debido a que ya se ha utilizado."
+"Por favor, solicite un nueva contraseña."
 
 #: templates/registration/password_reset_done.html:5
 #: templates/registration/password_reset_done.html:8
 msgid "Password reset successful"
-msgstr "Hasło zresetowane"
+msgstr "Restablecimiento de contraseña exitosa."
 
 #: templates/registration/password_reset_done.html:12
 msgid "We have sent you instructions for setting your password."
-msgstr "Przesłaliśmy Tobie instrukcję do ustawienia hasła."
+msgstr "Te hemos enviado instrucciones para configurar la contraseña."
 
 #: templates/registration/password_reset_email.html:2
 #, python-format
 msgid ""
 "You're receiving this e-mail because you requested a password reset for your "
 "user account at %(site_name)s."
-msgstr ""
-"Dostałeś tę wiadomość ponieważ, zarządałeś zresetowania hasłado Twojego "
-"konta na stronie %(site_name)s."
+msgstr "Usted está recibiendo este correo electrónico porque ha solicitado un restablecimiento de contraseña para su"
+"cuenta de usuario en %(site_name)s."
 
 #: templates/registration/password_reset_email.html:4
 msgid "Please go to the following page and choose a new password:"
-msgstr "Proszę przejdź na tą stronę i ustaw nowe hasło:"
+msgstr "Por favor, vaya a la siguiente página y elegir una nueva contraseña:"
 
 #: templates/registration/password_reset_email.html:9
 msgid "Thanks for using our site!"
-msgstr "Dziękujemy za używanie naszej strony!"
+msgstr "Gracias por utilizar nuestro sitio!"
 
 #: templates/registration/password_reset_email.html:11
 #, python-format
 msgid "The %(site_name)s team"
-msgstr "Zespół %(site_name)s team"
+msgstr "El %(site_name)s equipo"
 
 #: templates/registration/password_reset_form.html:4
 #: templates/registration/password_reset_form.html:7
 msgid "Password reset"
-msgstr "Reset hasła"
+msgstr "Restablecimiento de contraseña"
 
 #: templates/registration/password_reset_form.html:11
 msgid ""
 "Enter your e-mail address below, and we will send instructions for setting a "
 "new one."
-msgstr ""
-"Wprowadź Twój adres email poniżej, prześlemy na niego instrukcjędo "
-"ustawienia nowego hasła"
+msgstr "Ingrese su dirección de correo electrónico debajo y le enviaremos instrucciones para configurar uno nuevo."
 
 #: templates/registration/registration_closed.html:5
 #: templates/registration/registration_closed.html:8
 msgid "Registration closed"
-msgstr "Rejestracja zamknięta"
+msgstr "Registro cerrado"
 
 #: templates/registration/registration_closed.html:12
 msgid "We are sorry but registration is temporarily closed."
-msgstr "Przepraszamy, ale rejestracja jest chwilowo zamknięta"
+msgstr "Lo sentimos pero el registro está cerrado temporalmente."
 
 #: templates/registration/registration_closed.html:13
 msgid ""
 "Please come back shortly and try again. We apologize for the inconvenience."
-msgstr ""
-"Prosimy wrócić niebawem i spróbować ponownie. Przepraszamy za utrudnienia."
+msgstr "Por favor, vuelve pronto y vuelva a intentarlo. Pedimos disculpas por las molestias."
 
 #: templates/registration/registration_complete.html:5
 #: templates/registration/registration_complete.html:8
 msgid "Registration complete"
-msgstr "Rejestracja zakończona"
+msgstr "Registro completo"
 
 #: templates/registration/registration_complete.html:12
 msgid "Thank you for your registration!"
-msgstr "Dziękujemy za rejestrację!"
+msgstr "Gracias por registrarse!"
 
 #: templates/registration/registration_complete.html:13
 msgid "You will receive an email with an activation link shortly."
-msgstr "Powinieneś niedługo dostać wiadomość z linkiem aktywacyjnym."
+msgstr "Usted recibirá un correo electrónico con un enlace de activación en breve."
 
 #: templates/registration/registration_form.html:5
 #: templates/registration/registration_form.html:8
 msgid "Registration form"
-msgstr "Formularz rejestracyjny"
+msgstr "Formulario de registro"
 
 #: templates/registration/registration_form.html:22
 msgid "Register"
-msgstr "Rejestracja"
+msgstr "Registrar"
